@@ -1,0 +1,74 @@
+[Root]
+Most Recent Package=Fichier  1.dep
+
+
+[Package|Fichier  1.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Outils Web\Manipulator Gold Edition
+
+[Package|Fichier  1.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Fichier  1.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Fichier  1.dep|Files Found]
+
+[Package|Fichier  1.dep|Files Released]
+
+[Package|Fichier  1.dep|Missing Dependency Information]
+C:\Programmation\VB\Bomber\csTray.ocx=
+
+[Package|Fichier  1.dep|Out-of-Date Dependency Information]
+
+[Package|Fichier  1.dep|Files Added]
+
+[Package|Fichier  1.dep|Files Removed]
+
+[Package|Fichier  1.dep|Files In Project]
+C:\Outils Web\Manipulator Gold Edition\TraceThisGuy.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OlePro32.dll=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCFR.DLL=Yes
+C:\Programmation\VB\Bomber\csTray.ocx=Yes
+
+[Package|Fichier  1.dep|Configure Registry Files]
+Applicable=
+
+[Package|Fichier  1.dep|Configure Remote Servers]
+Applicable=
+
+[Package|Fichier  1.dep|Install Locations]
+C:\Outils Web\Manipulator Gold Edition\TraceThisGuy.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCFR.DLL=$(WinSysPath)
+C:\Programmation\VB\Bomber\csTray.ocx=$(WinSysPath)
+
+[Package|Fichier  1.dep|Configure Shared Files]
+Applicable=
+
+[Package|Fichier  1.dep|DepFile]
+DepCabFile=TraceThisGuy.CAB
+DepCabRun=TraceThisGuy.INF
+
+[Package|Fichier  1.dep|Package]
+PackageFolder=C:\Outils Web\Manipulator Gold Edition
+ProjectFolder=C:\Programmation\VB\RkPing
+ServerSideCab=
+File1=C:\Outils Web\Manipulator Gold Edition\TraceThisGuy.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
